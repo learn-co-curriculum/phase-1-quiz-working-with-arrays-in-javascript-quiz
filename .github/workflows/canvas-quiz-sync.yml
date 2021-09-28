@@ -1,0 +1,39 @@
+name: Sync quiz with Canvas
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - "README.md"
+      - "questions/*.md"
+
+jobs:
+  sync:
+    name: Sync with Canvas
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+
+      - name: Configure git commits to last user
+        run: |
+          git config --local user.email "$(git log --format='%ae' HEAD^!)"
+          git config --local user.name "$(git log --format='%an' HEAD^!)"
+      - name: Install gems
+        run: gem install github-to-canvas-quiz
+
+      # Secret stored in learn-co-curriculum Settings/Secrets
+      - name: Sync from markdown
+        run: github-to-canvas-quiz align
+        env:
+          CANVAS_API_KEY: ${{ secrets.CANVAS_API_KEY }}
+          CANVAS_API_PATH: ${{ secrets.CANVAS_API_PATH }}
+
+      - name: Push changes
+        run: git push
