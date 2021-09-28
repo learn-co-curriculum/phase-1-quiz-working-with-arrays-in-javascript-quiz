@@ -4,7 +4,7 @@
     "title": "Working with Arrays in JavaScript Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12280",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12280?force_user=1&persist_headless=1",
-    "description": "<p><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></p>\n<p><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-working-with-arrays-in-javascript-quiz\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-working-with-arrays-in-javascript-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -29,7 +29,7 @@
       "asset_string": "quizzes:quiz_12280"
     },
     "lock_explanation": "This quiz is currently locked.",
-    "hide_results": null,
+    "hide_results": "until_after_last_attempt",
     "show_correct_answers_at": null,
     "hide_correct_answers_at": null,
     "all_dates": [
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 6357,
     "show_correct_answers_last_attempt": true,
-    "version_number": 1,
+    "version_number": 2,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -88,32 +88,18 @@
       "position": null,
       "question_name": "Arrays: filter",
       "question_type": "short_answer_question",
-      "question_text": "<p>I have a list of all my favorite artists, and am searching for <strong>all</strong> the artists that start with S. What is the best method to achieve this?</p>\n<pre><span>let artists = ['Smash Mouth', 'Janelle Monae', 'SZA', 'Thunder Cat', 'Frank Ocean', 'Solange']</span></pre>",
+      "question_text": "<p>I have a list of all my favorite artists, and am searching for <strong>all</strong> the\nartists that start with S. What is the best method to achieve this?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">artists</span> <span class=\"o\">=</span> <span class=\"p\">[</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">Smash Mouth</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">Janelle Monae</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">SZA</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">Thunder Cat</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">Frank Ocean</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">Solange</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"p\">];</span>\n\n<span class=\"nx\">artists</span><span class=\"p\">.</span><span class=\"nx\">_________</span><span class=\"p\">(</span><span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">artist</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"nx\">artist</span><span class=\"p\">.</span><span class=\"nx\">startsWith</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">S</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"p\">});</span>\n</code></pre></div>\n<p>Fill in the blank in the code above.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "<p>Correct!</p>\n<p><span>The&nbsp;</span><strong><code>filter()</code></strong><span>&nbsp;method&nbsp;</span>creates a new array<span>&nbsp;with all elements that pass the test implemented by the provided function.</span></p>",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73924?module_item_id=143589\" target=\"_blank\">Using the Array Filter Method</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73924?module_item_id=143589\">Using the Array Filter Method</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "7726",
-          "text": ".filter()",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100
-        },
-        {
-          "id": "3018",
+          "id": 6844,
           "text": "filter",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100
-        },
-        {
-          "id": "3287",
-          "text": "filter()",
           "comments": "",
           "comments_html": "",
           "weight": 100
@@ -134,28 +120,28 @@
       "position": null,
       "question_name": "Arrays: forEach",
       "question_type": "true_false_question",
-      "question_text": "<p><span><code>forEach()</code> doesn't have a built-in return value.</span></p>",
+      "question_text": "<p><code>forEach()</code> doesn't have a built-in return value.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong><span>&nbsp;</span><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\" target=\"_blank\">forEach: The Unexpressive Iterator</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\">forEach: The Unexpressive Iterator</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
-          "comments_html": "<p>Nailed it!</p>\n<p>The<span>&nbsp;</span><code><strong>forEach()</strong></code><span>&nbsp;</span>method executes a provided function once for each array element.</p>",
+          "comments_html": "<p>Nailed it!</p>\n\n<p>The <code>forEach()</code> method executes a provided function once for each array element.</p>",
           "text": "True",
           "weight": 100,
-          "id": 8606
+          "id": 2528
         },
         {
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "text": "False",
           "weight": 0,
-          "id": 5468
+          "id": 2630
         }
       ],
       "variables": null,
@@ -173,32 +159,18 @@
       "position": null,
       "question_name": "Arrays: find",
       "question_type": "short_answer_question",
-      "question_text": "<p>I have a list of all my favorite artists, and am searching for <strong>the first </strong>artist that start with S. What is the best method to achieve this?</p>\n<pre><span>let artists = ['Smash Mouth', 'Janelle Monae', 'SZA', 'Thunder Cat', 'Frank Ocean', 'Solange']</span></pre>",
+      "question_text": "<p>I have a list of all my favorite artists, and am searching for <strong>the first</strong>\nartist that starts with S. What is the best method to achieve this?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">let</span> <span class=\"nx\">artists</span> <span class=\"o\">=</span> <span class=\"p\">[</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">Smash Mouth</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">Janelle Monae</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">SZA</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">Thunder Cat</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">Frank Ocean</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"dl\">\"</span><span class=\"s2\">Solange</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"p\">];</span>\n\n<span class=\"nx\">artists</span><span class=\"p\">.</span><span class=\"nx\">_________</span><span class=\"p\">(</span><span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">artist</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"nx\">artist</span><span class=\"p\">.</span><span class=\"nx\">startsWith</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">S</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"p\">});</span>\n</code></pre></div>\n<p>Fill in the blank in the code above.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "<p>Correct!</p>\n<p><span>The&nbsp;</span><code>find()</code><span>&nbsp;method returns the value of the first element in the provided array that satisfies the provided testing function.</span></p>",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\" target=\"_blank\">Finding Array Elements</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\">Finding Array Elements</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "4697",
-          "text": ".find()",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100
-        },
-        {
-          "id": "3049",
+          "id": 3508,
           "text": "find",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100
-        },
-        {
-          "id": "4590",
-          "text": "find()",
           "comments": "",
           "comments_html": "",
           "weight": 100
@@ -219,45 +191,45 @@
       "position": null,
       "question_name": "Arrays: map",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>What is the return value of the<span>&nbsp;</span><code>map</code><span>&nbsp;</span>method?</p>",
+      "question_text": "<p>What is the return value of the <code>map</code> method?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\" target=\"_blank\">Mapping Arrays</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\">Mapping Arrays</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3416,
-          "text": "A new array, with the same number of elements as the original array.",
-          "html": "",
+          "id": 1424,
+          "text": "",
+          "html": "<p>A new array, with the same number of elements as the original array.</p>",
           "comments": "",
-          "comments_html": "<p><span>Correct!</span></p>\n<p><span>The&nbsp;</span><code><strong>map()</strong></code><span>&nbsp;method&nbsp;</span>creates a new array<span>&nbsp;populated with the results of calling a provided function on every element in the calling array.</span></p>",
+          "comments_html": "<p>Correct!</p>\n\n<p>The <code>map()</code> method creates a new array populated with the results of calling a\nprovided function on every element in the calling array.</p>",
           "weight": 100.0
         },
         {
-          "id": 2818,
-          "text": "A modified version of the original array.",
-          "html": "",
+          "id": 5316,
+          "text": "",
+          "html": "<p>A modified version of the original array.</p>",
           "comments": "",
-          "comments_html": "<p>Close, but t<span>he&nbsp;</span><code><strong>map()</strong></code><span>&nbsp;method&nbsp;</span><strong>creates a new array</strong><span>&nbsp;populated with the results of calling a provided function on every element in the calling array.</span></p>",
+          "comments_html": "<p>Close, but the <code>map()</code> method <strong>creates a new array</strong> populated with the\nresults of calling a provided function on every element in the calling array.</p>",
           "weight": 0.0
         },
         {
-          "id": 6566,
-          "text": "A new array, with only the updated elements.",
-          "html": "",
+          "id": 5826,
+          "text": "",
+          "html": "<p>A new array, with only the updated elements.</p>",
           "comments": "",
-          "comments_html": "<p>Close, but t<span>he&nbsp;</span><code><strong>map()</strong></code><span>&nbsp;method&nbsp;</span>creates a new array<span>&nbsp;populated with the <strong>results of calling a provided function on every element in the calling array.</strong></span></p>",
+          "comments_html": "<p>Close, but the <code>map()</code> method creates a new array populated with the <strong>results\nof calling a provided function on every element in the calling array.</strong></p>",
           "weight": 0.0
         },
         {
-          "id": 3057,
-          "text": "I don't know.",
-          "html": "",
+          "id": 1413,
+          "text": "",
+          "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -283,24 +255,24 @@
       "neutral_comments": "",
       "correct_comments_html": "<p>Correct!</p>\n<p><span>The&nbsp;</span><code><strong>reduce()</strong></code><span>&nbsp;method executes a&nbsp;</span><strong>reducer</strong><span>&nbsp;function (that you provide) on each element of the array, resulting in a single output value.</span></p>",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73925?module_item_id=143590\" target=\"_blank\">Using the Array Reduce Method</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73925?module_item_id=143590\">Using the Array Reduce Method</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "8447",
+          "id": 2192,
           "text": ".reduce()",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": "3897",
+          "id": 714,
           "text": "reduce",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 4798,
+          "id": 7228,
           "text": "reduce()",
           "comments": "",
           "comments_html": "",
@@ -322,42 +294,46 @@
       "position": null,
       "question_name": "Arrays: forEach",
       "question_type": "multiple_answers_question",
-      "question_text": "<p><span>The best use cases for the <code>forEach()</code> method are (select all that apply)</span></p>",
+      "question_text": "<p>Select all that apply. The best use cases for the <code>forEach()</code> method are:</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong><span>&nbsp;</span><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\" target=\"_blank\">forEach: The Unexpressive Iterator</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\">forEach: The Unexpressive Iterator</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "2228",
-          "text": "To directly mutate the elements being interated.To directly mutate the elements being iterated.",
+          "id": 4673,
+          "text": "",
           "comments": "",
-          "comments_html": "<p>Correct!</p>\n<p>We can use <code>forEach()</code> to iterate over every element in an array, and <em>do something</em> to each of them!</p>",
-          "weight": 100.0
+          "comments_html": "<p>Correct!</p>\n\n<p>We can use <code>forEach()</code> to iterate over every element in an array, and*do\nsomething* to each of them!</p>",
+          "weight": 100.0,
+          "html": "<p>To iterate over an array and directly mutate elements.</p>"
         },
         {
-          "id": "6803",
-          "text": "To iterate through an array to log values.",
+          "id": 3048,
+          "text": "",
           "comments": "",
-          "comments_html": "<p>Correct!</p>\n<p><code>forEach()</code> is great for logging all the values in an array!</p>",
-          "weight": 100.0
+          "comments_html": "<p>Correct!</p>\n\n<p><code>forEach()</code> is great for logging all the values in an array!</p>",
+          "weight": 100.0,
+          "html": "<p>To iterate through an array to log values.</p>"
         },
         {
-          "id": "4216",
-          "text": "To create a new array with updates to our original elements.",
+          "id": 7612,
+          "text": "",
           "comments": "",
-          "comments_html": "<p>While we could create a new empty array and then use forEach() to push updated elements from a different array into it, there are a few other iterators that can do this job a little better for us. <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\" target=\"_blank\">Check out </a><code><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\" target=\"_blank\">.map()</a></code>, for instance!</p>\n<p>&nbsp;</p>",
-          "weight": 0.0
+          "comments_html": "<p>While we could create a new empty array and then use <code>forEach()</code> to push\nupdated elements from a different array into it, there are a few other\niterators that can do this job a little better for us.\n<a href=\"/courses/3297/pages/mapping-arrays?module_item_id=143585\">Check out <code>.map()</code></a>,\nfor instance!</p>",
+          "weight": 0.0,
+          "html": "<p>To create a new array with updates to our original elements.</p>"
         },
         {
-          "id": "9204",
-          "text": "I don't know.",
+          "id": 4893,
+          "text": "",
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-          "weight": 0.0
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
         }
       ],
       "variables": null,
@@ -375,32 +351,18 @@
       "position": null,
       "question_name": "Arrays: map",
       "question_type": "short_answer_question",
-      "question_text": "<p>I have the following array of my favorite artists, and want to add a number in front of each, to create a number list. What method is the best to achieve this?</p>\n<pre><span>// original array<br>let arr = ['Janelle Monae', 'Sza', 'Thunder Cat', 'Frank Ocean']<br><br>// returned array<br>['1. Janelle Monae', '2. SZA', '3. Thunder Cat', '4. Frank Ocean']</span></pre>",
+      "question_text": "<p>I have the following array of my favorite artists, and want to add a number in\nfront of each, to create a number list. What method is the best to achieve this?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">artists</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"dl\">\"</span><span class=\"s2\">Janelle Monae</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"dl\">\"</span><span class=\"s2\">Sza</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"dl\">\"</span><span class=\"s2\">Thunder Cat</span><span class=\"dl\">\"</span><span class=\"p\">,</span> <span class=\"dl\">\"</span><span class=\"s2\">Frank Ocean</span><span class=\"dl\">\"</span><span class=\"p\">];</span>\n\n<span class=\"kd\">const</span> <span class=\"nx\">numberedArtists</span> <span class=\"o\">=</span> <span class=\"nx\">artists</span><span class=\"p\">.</span><span class=\"nx\">_______</span><span class=\"p\">(</span><span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">artist</span><span class=\"p\">,</span> <span class=\"nx\">index</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"s2\">`</span><span class=\"p\">${</span><span class=\"nx\">index</span> <span class=\"o\">+</span> <span class=\"mi\">1</span><span class=\"p\">}</span><span class=\"s2\">. </span><span class=\"p\">${</span><span class=\"nx\">artist</span><span class=\"p\">}</span><span class=\"s2\">`</span><span class=\"p\">;</span>\n<span class=\"p\">});</span>\n<span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">numberedArtists</span><span class=\"p\">);</span>\n<span class=\"c1\">// =&gt; [\"1. Janelle Monae\", \"2. Sza\", \"3. Thunder Cat\", \"4. Frank Ocean\"]</span>\n</code></pre></div>\n<p>Fill in the blank in the code above.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "<p><span>Correct!</span></p>\n<p><span>The&nbsp;</span><code><strong>map()</strong></code><span>&nbsp;method&nbsp;</span>creates a new array<span>&nbsp;populated with the results of calling a provided function on every element in the calling array.</span></p>",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\" target=\"_blank\">Mapping Arrays</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\">Mapping Arrays</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "6679",
-          "text": ".map()",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100
-        },
-        {
-          "id": "1842",
+          "id": 3741,
           "text": "map",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100
-        },
-        {
-          "id": 3468,
-          "text": "map()",
           "comments": "",
           "comments_html": "",
           "weight": 100
@@ -421,31 +383,31 @@
       "position": null,
       "question_name": "Arrays: find",
       "question_type": "short_answer_question",
-      "question_text": "<p>The ___ method takes a callback function as an argument and returns the first element in an array that satisfies the callback function.</p>",
+      "question_text": "<p>The ___ method takes a callback function as an argument and returns the\n<strong>first</strong> element in an array for which the callback function returns true.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "<p>Correct!</p>",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\" target=\"_blank\">Finding Array Elements</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\">Finding Array Elements</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "4554",
+          "id": 581,
           "text": ".find()",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": "4127",
+          "id": 6218,
           "text": "find",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": "1635",
+          "id": 779,
           "text": "find()",
           "comments": "",
           "comments_html": "",
@@ -467,28 +429,28 @@
       "position": null,
       "question_name": "Arrays: map",
       "question_type": "true_false_question",
-      "question_text": "<p>The<span>&nbsp;</span><code>.map()</code><span>&nbsp;</span>method take a callback function as an argument.</p>",
+      "question_text": "<p>The <code>.map()</code> method take a callback function as an argument.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\" target=\"_blank\">Mapping Arrays</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\">Mapping Arrays</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
           "comments_html": "<p>Nailed it!</p>",
           "text": "True",
           "weight": 100,
-          "id": 1539
+          "id": 48
         },
         {
           "comments": "",
-          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "text": "False",
           "weight": 0,
-          "id": 4538
+          "id": 9697
         }
       ],
       "variables": null,
@@ -506,31 +468,31 @@
       "position": null,
       "question_name": "Arrays: reduce",
       "question_type": "short_answer_question",
-      "question_text": "<p>I have a list of monthly expenses that I want to add up to a gross total. What method would be the best to add all of my expenses together and return the final value?</p>\n<pre><span>let expenses = [25, 99, 1000, 350]</span></pre>",
+      "question_text": "<p>I have a list of monthly expenses that I want to add up to a gross total. What\nmethod would be the best to add all of my expenses together and return the final\nvalue?</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">expenses</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"mi\">25</span><span class=\"p\">,</span> <span class=\"mi\">99</span><span class=\"p\">,</span> <span class=\"mi\">1000</span><span class=\"p\">,</span> <span class=\"mi\">350</span><span class=\"p\">];</span>\n\n<span class=\"kd\">const</span> <span class=\"nx\">total</span> <span class=\"o\">=</span> <span class=\"nx\">expenses</span><span class=\"p\">.</span><span class=\"nx\">___________</span><span class=\"p\">(</span><span class=\"kd\">function</span> <span class=\"p\">(</span><span class=\"nx\">total</span><span class=\"p\">,</span> <span class=\"nx\">expense</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"nx\">total</span> <span class=\"o\">+</span> <span class=\"nx\">expense</span><span class=\"p\">;</span>\n<span class=\"p\">},</span> <span class=\"mi\">0</span><span class=\"p\">);</span>\n</code></pre></div>\n<p>Fill in the blank in the code above.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "<p>Correct!</p>\n<p><span>The&nbsp;</span><code><strong>reduce()</strong></code><span>&nbsp;method executes a&nbsp;</span><strong>reducer</strong><span>&nbsp;function (that you provide) on each element of the array, resulting in a single output value.</span></p>",
       "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73925?module_item_id=143590\" target=\"_blank\">Using the Array Reduce Method</a></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73925?module_item_id=143590\">Using the Array Reduce Method</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "5739",
+          "id": 6050,
           "text": ".reduce()",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": "4835",
+          "id": 2923,
           "text": "reduce",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 6443,
+          "id": 1638,
           "text": "reduce()",
           "comments": "",
           "comments_html": "",
