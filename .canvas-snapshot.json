@@ -1,0 +1,548 @@
+{
+  "quiz": {
+    "id": 12280,
+    "title": "Working with Arrays in JavaScript Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12280",
+    "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12280?force_user=1&persist_headless=1",
+    "description": "<p><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></p>\n<p><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 10,
+    "points_possible": 10.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_12280"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12280/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12280/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3297/quizzes/12280/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12280/submission_versions",
+    "assignment_id": 89506,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6357,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 1,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "question_types": [
+
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 12280,
+      "id": 127078,
+      "quiz_group_id": null,
+      "assessment_question_id": 88277,
+      "position": null,
+      "question_name": "Arrays: filter",
+      "question_type": "short_answer_question",
+      "question_text": "<p>I have a list of all my favorite artists, and am searching for <strong>all</strong> the artists that start with S. What is the best method to achieve this?</p>\n<pre><span>let artists = ['Smash Mouth', 'Janelle Monae', 'SZA', 'Thunder Cat', 'Frank Ocean', 'Solange']</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p>Correct!</p>\n<p><span>The&nbsp;</span><strong><code>filter()</code></strong><span>&nbsp;method&nbsp;</span>creates a new array<span>&nbsp;with all elements that pass the test implemented by the provided function.</span></p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73924?module_item_id=143589\" target=\"_blank\">Using the Array Filter Method</a></p>",
+      "answers": [
+        {
+          "id": "7726",
+          "text": ".filter()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "3018",
+          "text": "filter",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "3287",
+          "text": "filter()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12280,
+      "id": 127081,
+      "quiz_group_id": null,
+      "assessment_question_id": 88273,
+      "position": null,
+      "question_name": "Arrays: forEach",
+      "question_type": "true_false_question",
+      "question_text": "<p><span><code>forEach()</code> doesn't have a built-in return value.</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong><span>&nbsp;</span><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\" target=\"_blank\">forEach: The Unexpressive Iterator</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p>Nailed it!</p>\n<p>The<span>&nbsp;</span><code><strong>forEach()</strong></code><span>&nbsp;</span>method executes a provided function once for each array element.</p>",
+          "text": "True",
+          "weight": 100,
+          "id": 8606
+        },
+        {
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "text": "False",
+          "weight": 0,
+          "id": 5468
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12280,
+      "id": 127079,
+      "quiz_group_id": null,
+      "assessment_question_id": 88275,
+      "position": null,
+      "question_name": "Arrays: find",
+      "question_type": "short_answer_question",
+      "question_text": "<p>I have a list of all my favorite artists, and am searching for <strong>the first </strong>artist that start with S. What is the best method to achieve this?</p>\n<pre><span>let artists = ['Smash Mouth', 'Janelle Monae', 'SZA', 'Thunder Cat', 'Frank Ocean', 'Solange']</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p>Correct!</p>\n<p><span>The&nbsp;</span><code>find()</code><span>&nbsp;method returns the value of the first element in the provided array that satisfies the provided testing function.</span></p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\" target=\"_blank\">Finding Array Elements</a></p>",
+      "answers": [
+        {
+          "id": "4697",
+          "text": ".find()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "3049",
+          "text": "find",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "4590",
+          "text": "find()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12280,
+      "id": 127083,
+      "quiz_group_id": null,
+      "assessment_question_id": 88268,
+      "position": null,
+      "question_name": "Arrays: map",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What is the return value of the<span>&nbsp;</span><code>map</code><span>&nbsp;</span>method?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\" target=\"_blank\">Mapping Arrays</a></p>",
+      "answers": [
+        {
+          "id": 3416,
+          "text": "A new array, with the same number of elements as the original array.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Correct!</span></p>\n<p><span>The&nbsp;</span><code><strong>map()</strong></code><span>&nbsp;method&nbsp;</span>creates a new array<span>&nbsp;populated with the results of calling a provided function on every element in the calling array.</span></p>",
+          "weight": 100.0
+        },
+        {
+          "id": 2818,
+          "text": "A modified version of the original array.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Close, but t<span>he&nbsp;</span><code><strong>map()</strong></code><span>&nbsp;method&nbsp;</span><strong>creates a new array</strong><span>&nbsp;populated with the results of calling a provided function on every element in the calling array.</span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 6566,
+          "text": "A new array, with only the updated elements.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>Close, but t<span>he&nbsp;</span><code><strong>map()</strong></code><span>&nbsp;method&nbsp;</span>creates a new array<span>&nbsp;populated with the <strong>results of calling a provided function on every element in the calling array.</strong></span></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 3057,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12280,
+      "id": 127086,
+      "quiz_group_id": null,
+      "assessment_question_id": 88271,
+      "position": null,
+      "question_name": "Arrays: reduce",
+      "question_type": "short_answer_question",
+      "question_text": "<p>The best method to use to aggregate an array to a single value would be:</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p>Correct!</p>\n<p><span>The&nbsp;</span><code><strong>reduce()</strong></code><span>&nbsp;method executes a&nbsp;</span><strong>reducer</strong><span>&nbsp;function (that you provide) on each element of the array, resulting in a single output value.</span></p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73925?module_item_id=143590\" target=\"_blank\">Using the Array Reduce Method</a></p>",
+      "answers": [
+        {
+          "id": "8447",
+          "text": ".reduce()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "3897",
+          "text": "reduce",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 4798,
+          "text": "reduce()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12280,
+      "id": 127082,
+      "quiz_group_id": null,
+      "assessment_question_id": 88274,
+      "position": null,
+      "question_name": "Arrays: forEach",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p><span>The best use cases for the <code>forEach()</code> method are (select all that apply)</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong><span>&nbsp;</span><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\" target=\"_blank\">forEach: The Unexpressive Iterator</a></p>",
+      "answers": [
+        {
+          "id": "2228",
+          "text": "To directly mutate the elements being interated.To directly mutate the elements being iterated.",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p>We can use <code>forEach()</code> to iterate over every element in an array, and <em>do something</em> to each of them!</p>",
+          "weight": 100.0
+        },
+        {
+          "id": "6803",
+          "text": "To iterate through an array to log values.",
+          "comments": "",
+          "comments_html": "<p>Correct!</p>\n<p><code>forEach()</code> is great for logging all the values in an array!</p>",
+          "weight": 100.0
+        },
+        {
+          "id": "4216",
+          "text": "To create a new array with updates to our original elements.",
+          "comments": "",
+          "comments_html": "<p>While we could create a new empty array and then use forEach() to push updated elements from a different array into it, there are a few other iterators that can do this job a little better for us. <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\" target=\"_blank\">Check out </a><code><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\" target=\"_blank\">.map()</a></code>, for instance!</p>\n<p>&nbsp;</p>",
+          "weight": 0.0
+        },
+        {
+          "id": "9204",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12280,
+      "id": 127084,
+      "quiz_group_id": null,
+      "assessment_question_id": 88269,
+      "position": null,
+      "question_name": "Arrays: map",
+      "question_type": "short_answer_question",
+      "question_text": "<p>I have the following array of my favorite artists, and want to add a number in front of each, to create a number list. What method is the best to achieve this?</p>\n<pre><span>// original array<br>let arr = ['Janelle Monae', 'Sza', 'Thunder Cat', 'Frank Ocean']<br><br>// returned array<br>['1. Janelle Monae', '2. SZA', '3. Thunder Cat', '4. Frank Ocean']</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p><span>Correct!</span></p>\n<p><span>The&nbsp;</span><code><strong>map()</strong></code><span>&nbsp;method&nbsp;</span>creates a new array<span>&nbsp;populated with the results of calling a provided function on every element in the calling array.</span></p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\" target=\"_blank\">Mapping Arrays</a></p>",
+      "answers": [
+        {
+          "id": "6679",
+          "text": ".map()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "1842",
+          "text": "map",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 3468,
+          "text": "map()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12280,
+      "id": 127080,
+      "quiz_group_id": null,
+      "assessment_question_id": 88276,
+      "position": null,
+      "question_name": "Arrays: find",
+      "question_type": "short_answer_question",
+      "question_text": "<p>The ___ method takes a callback function as an argument and returns the first element in an array that satisfies the callback function.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p>Correct!</p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\" target=\"_blank\">Finding Array Elements</a></p>",
+      "answers": [
+        {
+          "id": "4554",
+          "text": ".find()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "4127",
+          "text": "find",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "1635",
+          "text": "find()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12280,
+      "id": 127085,
+      "quiz_group_id": null,
+      "assessment_question_id": 88270,
+      "position": null,
+      "question_name": "Arrays: map",
+      "question_type": "true_false_question",
+      "question_text": "<p>The<span>&nbsp;</span><code>.map()</code><span>&nbsp;</span>method take a callback function as an argument.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\" target=\"_blank\">Mapping Arrays</a></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p>Nailed it!</p>",
+          "text": "True",
+          "weight": 100,
+          "id": 1539
+        },
+        {
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "text": "False",
+          "weight": 0,
+          "id": 4538
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 12280,
+      "id": 127087,
+      "quiz_group_id": null,
+      "assessment_question_id": 88272,
+      "position": null,
+      "question_name": "Arrays: reduce",
+      "question_type": "short_answer_question",
+      "question_text": "<p>I have a list of monthly expenses that I want to add up to a gross total. What method would be the best to add all of my expenses together and return the final value?</p>\n<pre><span>let expenses = [25, 99, 1000, 350]</span></pre>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "<p>Correct!</p>\n<p><span>The&nbsp;</span><code><strong>reduce()</strong></code><span>&nbsp;method executes a&nbsp;</span><strong>reducer</strong><span>&nbsp;function (that you provide) on each element of the array, resulting in a single output value.</span></p>",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "<p><strong>Source/s:&nbsp;</strong><a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3297/assignments/73925?module_item_id=143590\" target=\"_blank\">Using the Array Reduce Method</a></p>",
+      "answers": [
+        {
+          "id": "5739",
+          "text": ".reduce()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "4835",
+          "text": "reduce",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": 6443,
+          "text": "reduce()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
