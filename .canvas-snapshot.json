@@ -4,7 +4,7 @@
     "title": "Working with Arrays in JavaScript Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12280",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12280?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-working-with-arrays-in-javascript-quiz\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-working-with-arrays-in-javascript-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-working-with-arrays-in-javascript-quiz\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-working-with-arrays-in-javascript-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 10827,
     "show_correct_answers_last_attempt": true,
-    "version_number": 2,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -98,7 +98,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73924?module_item_id=143589\">Using the Array Filter Method</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6844,
+          "id": "6844",
           "text": "filter",
           "comments": "",
           "comments_html": "",
@@ -127,11 +127,11 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\">forEach: The Unexpressive Iterator</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/foreach-the-unexpressive-iterator?module_item_id=143586\">forEach: The Unexpressive Iterator</a></li></ul><p></p>",
       "answers": [
         {
           "comments": "",
-          "comments_html": "<p>Nailed it!</p>\n\n<p>The <code>forEach()</code> method executes a provided function once for each array element.</p>",
+          "comments_html": "<p>Nailed it!</p>\n\n<p>The <code>forEach()</code> method executes a provided function once for each array\nelement.</p>",
           "text": "True",
           "weight": 100,
           "id": 2528
@@ -169,7 +169,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\">Finding Array Elements</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3508,
+          "id": "3508",
           "text": "find",
           "comments": "",
           "comments_html": "",
@@ -258,21 +258,21 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73925?module_item_id=143590\">Using the Array Reduce Method</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2192,
+          "id": "2192",
           "text": ".reduce()",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 714,
+          "id": "714",
           "text": "reduce",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 7228,
+          "id": "7228",
           "text": "reduce()",
           "comments": "",
           "comments_html": "",
@@ -301,10 +301,10 @@
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\">forEach: The Unexpressive Iterator</a></li></ul><p></p>",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/foreach-the-unexpressive-iterator?module_item_id=143586\">forEach: The Unexpressive Iterator</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4673,
+          "id": "4673",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct!</p>\n\n<p>We can use <code>forEach()</code> to iterate over every element in an array, and*do\nsomething* to each of them!</p>",
@@ -312,7 +312,7 @@
           "html": "<p>To iterate over an array and directly mutate elements.</p>"
         },
         {
-          "id": 3048,
+          "id": "3048",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct!</p>\n\n<p><code>forEach()</code> is great for logging all the values in an array!</p>",
@@ -320,7 +320,7 @@
           "html": "<p>To iterate through an array to log values.</p>"
         },
         {
-          "id": 7612,
+          "id": "7612",
           "text": "",
           "comments": "",
           "comments_html": "<p>While we could create a new empty array and then use <code>forEach()</code> to push\nupdated elements from a different array into it, there are a few other\niterators that can do this job a little better for us.\n<a href=\"/courses/3297/pages/mapping-arrays?module_item_id=143585\">Check out <code>.map()</code></a>,\nfor instance!</p>",
@@ -328,7 +328,7 @@
           "html": "<p>To create a new array with updates to our original elements.</p>"
         },
         {
-          "id": 4893,
+          "id": "4893",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -361,7 +361,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/mapping-arrays?module_item_id=143585\">Mapping Arrays</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3741,
+          "id": "3741",
           "text": "map",
           "comments": "",
           "comments_html": "",
@@ -393,21 +393,21 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/finding-array-elements?module_item_id=143583\">Finding Array Elements</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 581,
+          "id": "581",
           "text": ".find()",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 6218,
+          "id": "6218",
           "text": "find",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 779,
+          "id": "779",
           "text": "find()",
           "comments": "",
           "comments_html": "",
@@ -478,21 +478,21 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/assignments/73925?module_item_id=143590\">Using the Array Reduce Method</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6050,
+          "id": "6050",
           "text": ".reduce()",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 2923,
+          "id": "2923",
           "text": "reduce",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 1638,
+          "id": "1638",
           "text": "reduce()",
           "comments": "",
           "comments_html": "",
