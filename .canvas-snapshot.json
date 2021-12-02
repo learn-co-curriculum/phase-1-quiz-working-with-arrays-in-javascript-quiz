@@ -4,7 +4,7 @@
     "title": "Working with Arrays in JavaScript Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/12280",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/12280?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-working-with-arrays-in-javascript-quiz\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-working-with-arrays-in-javascript-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-working-with-arrays-in-javascript-quiz\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-working-with-arrays-in-javascript-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -29,7 +29,7 @@
       "asset_string": "quizzes:quiz_12280"
     },
     "lock_explanation": "This quiz is currently locked.",
-    "hide_results": "until_after_last_attempt",
+    "hide_results": null,
     "show_correct_answers_at": null,
     "hide_correct_answers_at": null,
     "all_dates": [
@@ -69,7 +69,7 @@
     "assignment_id": 89506,
     "one_time_results": false,
     "only_visible_to_overrides": false,
-    "assignment_group_id": 6357,
+    "assignment_group_id": 10827,
     "show_correct_answers_last_attempt": true,
     "version_number": 2,
     "has_access_code": false,
