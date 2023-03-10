@@ -1,6 +1,6 @@
 ---
-id: 12280
-course_id: 3297
+id: 42558
+course_id: 6638
 repo: phase-1-quiz-working-with-arrays-in-javascript-quiz
 ---
 
